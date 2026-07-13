@@ -263,7 +263,7 @@ The dashboard includes the following DAX measures:
 CRM-Sales-Analytics-Dashboard
 │
 ├── Dashboard
-│   └── CRM Sales Analytics.pbix
+│   └── Sales dashboard.pbix
 │
 ├── Dataset
 │   ├── accounts.csv
