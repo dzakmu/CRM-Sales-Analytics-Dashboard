@@ -1,10 +1,10 @@
-# 📊 CRM Sales Analytics Dashboard
+# CRM Sales Analytics Dashboard
 
 An interactive **Power BI CRM Sales Analytics Dashboard** developed to analyze sales performance, product performance, sales pipeline, and team effectiveness using Business Intelligence techniques.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project transforms raw CRM sales opportunity data into an interactive business intelligence dashboard that enables stakeholders to monitor sales performance, evaluate product contribution, analyze pipeline efficiency, and identify top-performing sales teams.
 
@@ -12,22 +12,23 @@ The dashboard was built using **Power BI**, **Power Query**, and **DAX**, follow
 
 ---
 
-# 🎯 Business Objectives
+## Business Questions
 
-The dashboard aims to answer the following business questions:
+The dashboard is designed to answer the following business questions:
 
 - How much revenue has been generated?
-- How many sales opportunities were successfully converted?
+- How many deals have been won and lost?
 - Which products generate the highest revenue?
 - Which sales agents and managers perform the best?
 - Which sectors and regions contribute the most revenue?
 - How does revenue change over time?
+- How does revenue change from quarter to quarter?
 - Which products achieve better win rates?
-- How does the sales pipeline progress across different deal stages?
+- How is the sales pipeline distributed across deal stages?
 
 ---
 
-# 📂 Dataset
+# Dataset
 
 The project uses a CRM Sales Opportunities dataset consisting of four related tables.
 
@@ -40,7 +41,7 @@ The project uses a CRM Sales Opportunities dataset consisting of four related ta
 
 ---
 
-# 🛠️ Data Preparation
+# Data Preparation
 
 The following preprocessing steps were performed before building the dashboard:
 
@@ -55,7 +56,7 @@ The following preprocessing steps were performed before building the dashboard:
 
 ---
 
-# 🏗️ Data Model
+# Data Model
 
 The dashboard follows a **Star Schema** design.
 
@@ -70,7 +71,7 @@ The dashboard follows a **Star Schema** design.
 
 ---
 
-# 📈 Dashboard Pages
+# Dashboard Pages
 
 ## 1. Executive Sales Dashboard
 
@@ -131,27 +132,27 @@ Focuses on product-level analysis.
 
 ## 3️. Sales Performance Dashboard
 
-Evaluates individual and team performance.
+Analyzes individual sales performance and team effectiveness.
 
-### a. Visualizations
+### Visualizations
 
 - Revenue by Sales Agent
 - Win Rate by Sales Agent
 - Won Deals by Sales Agent
 - Revenue by Manager
-- Revenue Trend by Quarter
+- Revenue by Quarter
 - Sales Performance Table
 
-### b. Key Insights
+### Key Insights
 
-- Revenue distribution is concentrated among several top-performing sales agents.
-- Some agents maintain higher win rates despite handling fewer opportunities.
-- Manager performance varies across teams.
-- Revenue trends show seasonal fluctuations throughout the year.
+- Revenue is concentrated among several top-performing sales agents.
+- Sales agents exhibit different win rates, indicating varying sales effectiveness.
+- Revenue performance differs across managers and their teams.
+- Quarterly revenue trends help identify seasonal patterns and business performance changes throughout the year.
 
 ---
 
-# 📊 KPIs
+# KPIs
 
 The dashboard includes the following DAX measures:
 
@@ -164,22 +165,22 @@ The dashboard includes the following DAX measures:
 
 ---
 
-# 🚀 Features
+## Features
 
 - Interactive slicers
 - Navigation buttons
 - Dynamic KPI cards
-- Calendar table
-- Star schema data model
-- Sales funnel visualization
-- Product performance analysis
-- Sales performance analysis
-- Regional analysis
-- Custom tooltip page
-
+- Quarterly Revenue Analysis
+- Product Performance Analysis
+- Sales Performance Analysis
+- Deal Stage Funnel
+- Regional Performance Analysis
+- Win Rate Analysis
+- Custom Tooltip
+  
 ---
 
-# 💡 Business Insights
+# Business Insights
 
 ### Executive Summary
 
@@ -198,12 +199,13 @@ The dashboard includes the following DAX measures:
 ### Sales Insights
 
 - Revenue is concentrated among top-performing sales agents.
-- High revenue does not always indicate the highest win rate.
-- Manager performance differs considerably across sales teams.
+- Win rates vary across sales agents, highlighting differences in conversion efficiency.
+- Revenue trends fluctuate across quarters, providing insight into seasonal sales performance.
+- Manager performance differs across teams, suggesting opportunities for coaching and resource allocation.
 
 ---
 
-# 📌 Business Recommendations
+# Business Recommendations
 
 - Continue investing in GTX Pro due to its strong revenue contribution.
 - Analyze lost opportunities to improve conversion rates.
@@ -213,7 +215,7 @@ The dashboard includes the following DAX measures:
 
 ---
 
-# 🧰 Tools & Technologies
+# Tools & Technologies
 
 - Power BI Desktop
 - Power Query
@@ -224,7 +226,7 @@ The dashboard includes the following DAX measures:
 
 ---
 
-# 📚 Skills Demonstrated
+# Skills Demonstrated
 
 - Data Cleaning
 - Data Transformation
@@ -239,23 +241,23 @@ The dashboard includes the following DAX measures:
 
 ---
 
-# 📷 Dashboard Preview
+# Dashboard Preview
 
 ## Executive Sales Dashboard
 
-*(Insert Screenshot)*
+<img width="1287" height="725" alt="image" src="https://github.com/user-attachments/assets/005c189e-52c3-4d0a-b56f-0a35901c08a8" />
 
 ## Product Performance Dashboard
 
-*(Insert Screenshot)*
+<img width="1291" height="736" alt="image" src="https://github.com/user-attachments/assets/5a19f5bc-b4fc-413c-94c6-35fea7d7d455" />
 
 ## Sales Performance Dashboard
 
-*(Insert Screenshot)*
+<img width="1292" height="730" alt="image" src="https://github.com/user-attachments/assets/8c99013c-5b5a-48c8-af30-d6f8926d836a" />
 
 ---
 
-# 📁 Repository Structure
+# Repository Structure
 
 ```
 CRM-Sales-Analytics-Dashboard
@@ -280,9 +282,8 @@ CRM-Sales-Analytics-Dashboard
 
 ---
 
-# 🔮 Future Improvements
+# Future Improvements
 
-- Quarter-over-Quarter analysis
 - Forecasting sales revenue
 - Customer segmentation
 - Drill-through reports
@@ -291,6 +292,6 @@ CRM-Sales-Analytics-Dashboard
 
 ---
 
-# 👨‍💻 Author
+# Author
 
 **Muhammad Dzaky Mu'ammar**
