@@ -272,10 +272,10 @@ CRM-Sales-Analytics-Dashboard
 │   └── sales_teams.csv
 │
 ├── Images
-│   ├── executive_dashboard.png
-│   ├── product_performance.png
-│   ├── sales_performance.png
-│   └── data_model.png
+│   ├── Executive Sales Dashboard.png
+│   ├── Product Performance Dashboard.png
+│   ├── Sales Performance Dashboard.png
+│   └── Data Model.png
 │
 └── README.md
 ```
